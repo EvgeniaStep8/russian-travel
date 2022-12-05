@@ -1,3 +1,8 @@
 .cover__overlay {
   width: 100%;
+  opacity: 0.3;
+}
+
+.back {
+  background-color: #2A2C2F;
 }
