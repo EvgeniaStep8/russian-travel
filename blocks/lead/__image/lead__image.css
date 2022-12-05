@@ -1,7 +1,3 @@
 .lead__image {
-  max-width: 100%;
-  min-height: 615px;
-  background-image: url('../../../images/lead__image.jpg');
-  background-size: cover;
-  position: relative;
+  width: 100%;
 }
