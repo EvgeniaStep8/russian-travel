@@ -2,36 +2,18 @@
   padding: 0;
   margin: 0;
   max-width: 360px;
-  position: absolute;
-  bottom: 33%;
-  left: 35%;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  text-align: center;
+  position: relative;
   z-index: 1;
-}
-@media screen and (max-width: 1279.98px){
-  .cover__subtitle {
-    bottom: 30%;
-    left: 32.4%;
-  }
-}
-
-@media screen and (max-width: 1023.98px){
-  .cover__subtitle {
-    bottom: 24%;
-    left: 26.5%;
-  }
 }
 
 @media screen and (max-width: 767.98px){
   .cover__subtitle {
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
-    max-width: 288px;
-    bottom: 16.5%;
-    left: 5%;
   }
 }
