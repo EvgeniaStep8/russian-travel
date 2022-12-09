@@ -8,7 +8,7 @@
   width: 100%;
   padding: 92px 48px 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279.98px) {
@@ -23,10 +23,10 @@
 @media screen and (max-width: 1023.98px) {
   .photo-grid {
     padding: 88px 24px 0;
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box; 
-    -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr; 
-    -ms-grid-columns: 1fr 16px 1fr; 
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
+    -ms-grid-columns: 1fr 16px 1fr;
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     gap: 16px;
   }
@@ -34,9 +34,9 @@
 
 @media screen and (max-width: 767.98px) {
   .photo-grid {
-    padding: 64px 16px 0; 
-    -ms-grid-rows: 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr; 
-    -ms-grid-columns: 1fr 12px 1fr; 
+    padding: 64px 16px 0;
+    -ms-grid-rows: 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr;
+    -ms-grid-columns: 1fr 12px 1fr;
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     gap: 12px;
   }

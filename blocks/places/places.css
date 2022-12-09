@@ -1,5 +1,7 @@
 .places {
   padding: 92px 148px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width:1279.98px) {
