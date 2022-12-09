@@ -1,15 +1,28 @@
 .cover{
-  width: calc(100% - 48px*2);
+  width: 100%;
   position: relative;
   background-size: cover;
-  margin: 92px auto 0;
+  padding: 0 48px;
   background-color: #2A2C2F;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 92px;
 }
-
-
 
 @media screen and (max-width: 1279.98px) {
   .cover{
-    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .cover{
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .cover{
+    margin-top: 66px;
   }
 }

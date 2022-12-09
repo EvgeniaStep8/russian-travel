@@ -1,5 +1,5 @@
 @import url('../vendor/normalize.css');
-@import url('../blocks/fonts/fonts.css');
+@import url('../vendor/fonts/fonts.css');
 /* Стили page */
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__header/page__header.css');
@@ -9,6 +9,7 @@
 @import url('../blocks/link/_no-decoration/link_no-decoration.css');
 /* Стили header */
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 /* Стили lead */
@@ -33,25 +34,22 @@
 /* Стили places */
 @import url('../blocks/places/places.css');
 /* Стили place */
-@import url('../blocks/place/place.css');
 @import url('../blocks/place/__heading/place__heading.css');
 @import url('../blocks/place/__title/place__title.css');
 @import url('../blocks/place/__url/place__url.css');
 @import url('../blocks/place/__url-heading/place__url-heading.css');
 @import url('../blocks/place/__link/place__link.css');
 @import url('../blocks/place/__content/place__content.css');
-@import url('../blocks/place/__image-container/place__image-container.css');
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__paragraphs/place__paragraphs.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 /* Стили cover */
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__container/cover__container.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
-@import url('../blocks/cover/__overlay/cover__overlay.css');
 /* Стили footer */
-@import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');

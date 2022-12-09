@@ -7,10 +7,18 @@
   font-size: 18px;
   line-height: 22px;
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 
 @media screen and (max-width: 767.98px){
+  .cover__subtitle {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 500px){
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
