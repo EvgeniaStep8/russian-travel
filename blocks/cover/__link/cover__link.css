@@ -1,0 +1,7 @@
+.cover__link {
+  display: block;
+  background-image: url(../../../images/cover__background.jpg);
+  padding-top: 62.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

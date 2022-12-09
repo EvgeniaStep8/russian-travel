@@ -1,5 +1,27 @@
 .place__content {
   display: flex;
+  align-items: flex-start;
   gap: 40px;
   margin: 48px 0 80px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .place__content {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .place__content {
+    gap: 28px;
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .place__content {
+    flex-direction: column;
+    margin: 32px 0 50px;
+    gap: 32px;
+  }
 }

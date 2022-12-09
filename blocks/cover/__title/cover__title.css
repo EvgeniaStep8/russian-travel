@@ -12,3 +12,27 @@
   text-align: center;
   z-index: 1;
 }
+
+@media screen and (max-width: 1279.98px){
+  .cover__title {
+    top: 30%;
+    left: 23%;
+  }
+}
+
+@media screen and (max-width: 1023.98px){
+  .cover__title {
+    top: 24%;
+    left: 13.5%;
+  }
+}
+
+@media screen and (max-width: 767.98px){
+  .cover__title {
+    max-width: 288px;
+    top: 16.5%;
+    left: 5%;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

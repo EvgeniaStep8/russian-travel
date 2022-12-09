@@ -1,7 +1,13 @@
 .cover{
-  max-width: calc(100% - 48px*2);
+  width: calc(100% - 48px*2);
   position: relative;
-  background: url('../../images/cover__background.jpg');
   background-size: cover;
-  margin: 0 auto;
+  margin: 92px auto 0;
+  background-color: #2A2C2F;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .cover{
+    width: 100%;
+  }
 }

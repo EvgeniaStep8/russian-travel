@@ -12,3 +12,26 @@
   text-align: center;
   z-index: 1;
 }
+@media screen and (max-width: 1279.98px){
+  .cover__subtitle {
+    bottom: 30%;
+    left: 32.4%;
+  }
+}
+
+@media screen and (max-width: 1023.98px){
+  .cover__subtitle {
+    bottom: 24%;
+    left: 26.5%;
+  }
+}
+
+@media screen and (max-width: 767.98px){
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+    bottom: 16.5%;
+    left: 5%;
+  }
+}
