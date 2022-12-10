@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -14,10 +13,9 @@
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 424.98px) {
   .place__paragraph {
     padding: 0 16px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 }
